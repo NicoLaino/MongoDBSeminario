@@ -1,0 +1,23 @@
+use seminar_mongo2020
+
+db.createCollection("NBA_players")
+db.NBA_players.insert(
+   [
+   {firstname: "James", lastname: "Lebron", position: "Small Forward", allstars: "16"},
+   {firstname: "Luka", lastname: "Doncic", position: "Guard", allstars: "1"},
+   {firstname: "James", lastname: "Harden", position: "Off Guard", allstars: "8"},
+   {firstname: "Giannis", lastname: "Antetokounmpo", position: "Power forward", allstars: "4"},
+   {firstname: "Anthony", lastname: "Davis", position: "Power Forward", allstars: "7"}
+   ]
+)
+
+db.createCollection("NBA_teams")
+db.NBA_teams.insert(
+   [
+   {name: "Lakers", city: "Los Angeles"},
+   {name: "Bucks", city: "Milwaukee"},
+   {name: "Raptors", city: "Toronto"},
+   {name: "Bulls", city: "Chicago"},
+   {name: "Pistons", city: "Detroit"},
+   ]
+)
