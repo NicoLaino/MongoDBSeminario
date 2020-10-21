@@ -3,13 +3,15 @@
 1. Instalar MongoDB en ambiente local.
 
 2. Conectarse a MongoDB vía CLI
-`mongod`
+    `mongod`
 
 3. Crear una nueva base de datos llamada futbolfifa.
-`use nba`
+    
+    `use nba`
 
 4. Crear una nueva collection llamada players.
-`db.createCollection("players")`
+    
+    `db.createCollection("players")`
 
 5. Insertar 5 documentos en la collection players con datos básicos (nombre, apellido, posición, fecha de nacimiento, etc).
 ```
@@ -26,7 +28,7 @@ db.players.insert(
 
 6. Listar todos los documentos de la collection players.
 
-`db.players.fin()`
+    `db.players.find()`
 
 7. Crear otras collections con documentos (ej. teams, games, etc).
 
