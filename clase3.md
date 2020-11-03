@@ -1,7 +1,5 @@
 Volver a **[Readme](https://github.com/NicoLaino/MongoDBSeminario/blob/main/readme.md)**
 
-(___)
-
 # Clase 3
 
 1. Utilizar la misma base de datos de películas e insertar varias películas con distinto contenido.

@@ -1,7 +1,5 @@
 # Seminario MongoDB
 
-(___)
-
 Nicolás Laino - TUDAI 2020
 
 1. **[Clase 1](https://github.com/NicoLaino/MongoDBSeminario/blob/main/clase1.md)**

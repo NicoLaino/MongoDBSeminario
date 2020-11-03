@@ -1,7 +1,5 @@
 Volver a **[Readme](https://github.com/NicoLaino/MongoDBSeminario/blob/main/readme.md)**
 
-(___)
-
 # Clase 1 
 
 1. Instalar MongoDB en ambiente local.

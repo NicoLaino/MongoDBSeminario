@@ -1,7 +1,5 @@
 Volver a **[Readme](https://github.com/NicoLaino/MongoDBSeminario/blob/main/readme.md)**
 
-(___)
-
 # Clase 2
 
 1. Crear una nueva base de datos de un sistema de streaming de video (ej. Netflix, Flow, Amazon Prime) que permita almacenar movies.
