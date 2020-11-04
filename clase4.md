@@ -24,7 +24,8 @@ db.movies.find(
 
 3. Crear índice en title y description, y después hacer búsquedas de texto en estos campos.
 
-> db.movies.createIndex(
+```
+db.movies.createIndex(
     {title: "text",
     description: "text"}
 )
@@ -36,3 +37,4 @@ db.movies.find(
 db.movies.find(
     {$text: { $search: "The" }}
 )
+```
