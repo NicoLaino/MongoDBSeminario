@@ -24,10 +24,10 @@ app.use(cors());
 
 // Import Routes
 const productsRoute = require('./routes/products');
-//const salesRoute = require('./routes/sales');
+const salesRoute = require('./routes/sales');
 
 app.use('/product', productsRoute);
-//app.use('/sales', salesRoute);
+app.use('/sales', salesRoute);
 
 // Connect to DB
 mongoose.connect(process.env.DB_CONNECTION, 

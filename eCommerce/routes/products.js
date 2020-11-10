@@ -4,6 +4,9 @@ const express = require('express');
 // Import Router
 const router = express.Router();
 
+// Import mongoose
+const mongoose = require('mongoose');
+
 // Import Model
 const Products = require('../models/Products');
 
@@ -13,7 +16,7 @@ router.get('/', async (req, res) => {
         const products = await Products.find();
         res.json(products);
     } catch (err) {
-            res.json({ message: err });
+            res.json({ status: "404 Not Found", message: err });
         }
 });
 
@@ -23,7 +26,7 @@ router.get('/:productId', async (req, res) => {
         const productId = await Products.findById(req.params.productId)
         res.json(productId);
     } catch (err) {
-            res.json({ message: err });
+            res.json({ status: "404 Not Found", message: err });
         }
 });
 
